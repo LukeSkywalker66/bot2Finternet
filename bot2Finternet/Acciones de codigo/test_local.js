@@ -1,6 +1,7 @@
 // test_local.js
 const { ejecutarGetDatosCliente } = require('./AC_GetDatosCliente');
 const { ejecutarDiagnostico } = require('./AC_Diagnostico_cliente');
+const { resolverSeleccion } = require('./AC_Resolver_Seleccion');
 
 // --- CONFIGURACIÓN DEL ESCENARIO ---
 const DNI_PRUEBA = "40683956"; // Poné el DNI de la clienta con 2 casas para probar el selector
