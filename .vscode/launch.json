@@ -10,7 +10,10 @@
             "request": "launch",
             "name": "Debug Diagnóstico Local",
             "skipFiles": [
-                "<node_internals>/**"
+                "<node_internals>/**",
+                "${workspaceFolder}/node_modules/**/*.js",
+                "${workspaceFolder}/node_modules/**/*.cjs",  // <--- LA CLAVE PARA AXIOS
+                "${workspaceFolder}/node_modules/**/*.mjs"
             ],
             "program": "${workspaceFolder}\\bot2Finternet\\Acciones de codigo\\test_local.js",
             "console": "integratedTerminal"
