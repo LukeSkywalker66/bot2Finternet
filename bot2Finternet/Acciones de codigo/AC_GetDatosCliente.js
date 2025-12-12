@@ -108,7 +108,7 @@ async function ejecutarGetDatosCliente() {
             // --- CASO B: MULTI-DOMICILIO (Preparamos datos para la IA) ---
             
             // Creamos una lista de texto que la IA pueda leer y entender.
-            // Formato: "USER_ID | DIRECCION | PLAN"
+   
             // 1. EL DICCIONARIO OCULTO (ID -> PPPoE)
             // Clave: ID de conexión (ej: 11460) -> Valor: Usuario Técnico (ej: avlsosa)
             const mapaLookup = {};
