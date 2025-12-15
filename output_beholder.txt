@@ -1,0 +1,52 @@
+HTTP/1.1 200 OK
+date: Mon, 15 Dec 2025 13:10:35 GMT
+server: uvicorn
+content-length: 934
+content-type: application/json
+connection: close
+
+{
+  "unique_external_id": "HWTCE5D9D39C",
+  "pppoe_username": "acavo",
+  "onu_sn": "HWTCE5D9D39C",
+  "Modo": "Routing",
+  "OLT": "Villa Dolores 2",
+  "nodo_nombre": "Nodo R6 (ex 88)",
+  "nodo_ip": "138.59.175.6",
+  "puerto": "8799",
+  "plan": "100Mb (Fibra Óptica)",
+  "direccion": "GODOY CRUZ 544 2 CASAS AL NORTE",
+  "cliente_nombre": "CAVO ADRIEL",
+  "mikrotik": {
+    "active": true,
+    "id": "*8000002D",
+    "name": "acavo",
+    "service": "pppoe",
+    "caller-id": "A4:BE:2B:6F:5F:3A",
+    "address": "172.18.2.191",
+    "uptime": "1d6h18m47s",
+    "encoding": "",
+    "session-id": "0x81B0002D",
+    "limit-bytes-in": "0",
+    "limit-bytes-out": "0",
+    "radius": "false",
+    "comment": "ISPCube - CAVO ADRIEL"
+  },
+  "onu_status_smrt": {
+    "onu_status": "Online",
+    "last_status_change": "2025-12-04 16:54:45",
+    "status": true,
+    "response_code": "success"
+  },
+  "onu_signal_smrt": {
+    "onu_signal": "Very good",
+    "onu_signal_value": "-26.77 dBm / -28.54 dBm",
+    "onu_signal_1310": "-28.54 dBm",
+    "onu_signal_1490": "-26.77 dBm",
+    "status": true,
+    "response_code": "success"
+  },
+  "onu_vlan": [
+    "140"
+  ]
+}

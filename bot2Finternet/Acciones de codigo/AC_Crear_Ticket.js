@@ -39,7 +39,7 @@ async function main() {
         
         // Contexto del Reclamo
         // 'ctx_ticket_sector' debe venir seteado antes (SOPORTE, ADMIN, VENTAS)
-        const sectorBot = user.get('ctx_ticket_sector') || "SOPORTE"; 
+        const sectorBot = user.get('nSector') || "SOPORTE"; 
         const quejaUsuario = user.get('ticket_descripcion_usuario') || "Sin descripción.";
 
         // Datos del Diagnóstico (Solo existen si pasó por el flujo de soporte)
